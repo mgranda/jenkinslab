@@ -18,7 +18,7 @@ pipeline {
     stage('Fluffy Deploy') {
       steps {
         echo 'Deploy'
-        sh 'echo Another Placeholder.'
+        sh 'echo Edited Placeholder.'
       }
     }
 
